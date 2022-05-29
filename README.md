@@ -26,7 +26,20 @@ $ bundle exec jekyll serve
 Now, feel free to customize the theme however you like (don't forget to change the name!).
 After you are done, **commit** your final changes.
 
-Remember the deployed branch must be master.
+
+
+
+**To enable automatic deployment:**
+1. Click on **Actions** tab and **Enable GitHub Actions**; do not worry about creating any workflows as everything has already been set for you.
+2. Make any other changes to your webpage, commit, and push. This will automatically trigger the **Deploy** action.
+3. Wait for a few minutes and let the action complete. You can see the progress in the **Actions** tab. If completed successfully, in addition to the `master` branch, your repository should now have a newly built `gh-pages` branch.
+
+*Note that it is not possible to use this plugin with the default Github pages workflow. Github does not allow any but a few select plugins to run for security reasons, and Jekyll-Scholar is not among them. You will have to generate your site locally and push the results to the master resp. gh-pages branch of your site repository.*
+
+4. <font color=red>imporant!!!</font> Finally, in the **Settings** of your repository, in the Pages section, set the branch to `gh-pages` (**NOT** to `master`). For more details, see [Configuring a publishing source for your GitHub Pages site](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#choosing-a-publishing-source).
+
+
+
 
 ### Some good user cases
 [Andreea Bobu](https://andreea7b.github.io/)
