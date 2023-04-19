@@ -3,6 +3,13 @@
 
   <!-- Head -->
   <head>
+    <style>
+      .container {
+        width: 45%;
+        margin: auto;
+        margin-top: 5;
+      }
+    </style>
   {%- if page.redirect -%}
     <meta http-equiv="refresh" content="3; url={{ site.baseurl | prepend: site.url }}/" />
   {%- endif -%}
@@ -16,7 +23,7 @@
     {%- include header.html %}
 
     <!-- Content -->
-    <div class="container mt-5" >
+    <div class="container">
       {{ content }}
     </div>
 
