@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Home | Junjie Ou # the website title (if blank, full name will be used instead)
+title: Junjie Ou # the website title (if blank, full name will be used instead)
 first_name: Junjie
 last_name: Ou
 email: j_michael@sjtu.edu.cn
@@ -14,7 +14,7 @@ footer_text: >
 keywords: shanghai jiaotong university, computer science, phd  # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: 🔯  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://juneou.github.io # the base hostname & protocol for your site
 baseurl:  # the subpath of your site, e.g. /blog/
@@ -231,7 +231,7 @@ filtered_bibtex_keywords: [abbr, abstract, arxiv, bibtex_show, html, pdf, select
 # -----------------------------------------------------------------------------
 
 imagemagick:
-  enabled: false
+  enabled: true
   widths:
     - 480
     - 800
