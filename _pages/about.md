@@ -5,7 +5,7 @@ permalink: /
 
 profile:
   align: right
-  image: me.jpg
+  image: profile.jpg
   # bio: 
   #     Shanghai, China <br>
 
