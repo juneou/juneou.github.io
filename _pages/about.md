@@ -16,7 +16,7 @@ social: true  # includes social icons at the bottom of the page
 
 I am currently a fifth-year PhD student in computer science at SJTU, advised by Prof. [Xinbing Wang](https://www.cs.sjtu.edu.cn/~wang-xb/) and Prof. [Haiming Jin](https://jhc.sjtu.edu.cn/~haimingjin/). Previously, I was an undergraduate in the Department of Electrical and Information Engineering in Beijing Jiao Tong University.
 
-My research centers around data mining, machine learning and their broad applications (e.g., traffic prediction, knowledge graph reasoning). I am also interested in the interpretability study of deep forecasting model.
+My research centers around data mining, machine learning and their broad applications (e.g., information retrieval and recommendation). Now I am also interested in the reasoning study of Large Language Model.
 
 ## Education
 
@@ -34,6 +34,12 @@ My research centers around data mining, machine learning and their broad applica
 ---
 ## Publications
 <ul>
+     <strong><a href="https://dl.acm.org/doi/10.1145/3607144">Open-World Graph Active Learning for Node Classification.</a></strong>
+      <ul>
+        <li> Hui Xu, Liyao Xiang, Junjie Ou, Yuting Weng, Xinbing Wang, Chenghu Zhou.</li>
+        <li><strong>TKDD 23: ACM Transactions on Knowledge Discovery from Data.</strong></li>
+      </ul>
+    <br>
      <strong><a href="https://dl.acm.org/doi/10.1145/3596497">STA-TCN: Spatial-Temporal Attention over Temporal Convolutional Network for Next Point-of-Interest Recommendation.</a></strong>
       <ul>
         <li> Junjie Ou, Haiming Jin, Xiaocheng Wang, Hao Jiang, Xinbing Wang, Chenghu Zhou.</li>
